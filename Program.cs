@@ -6,6 +6,11 @@ namespace PasscodeP
     {
         static void Main(string[] args)
         {
+            checkPassCode();
+        }
+
+        static void checkPassCode()
+        {
             //git project pulled by Samy
             var code = "";
             while (code != "secret")
